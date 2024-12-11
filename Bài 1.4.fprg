@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="c&#226;u d b&#224;i 1"/>
+        <attribute name="authors" value="huyha"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-25 04:48:02 CH"/>
+        <attribute name="created" value="aHV5aGE7TEFQVE9QLUY0QUZRUEEwOzIwMjQtMDktMjU7MDQ6MTQ6MDkgQ0g7Mjg1MQ=="/>
+        <attribute name="edited" value="aHV5aGE7TEFQVE9QLUY0QUZRUEEwOzIwMjQtMDktMjU7MDQ6NDg6MDIgQ0g7MTsyOTU5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="dienTich" type="Real" array="False" size=""/>
+            <declare name="canh" type="Integer" array="False" size=""/>
+            <output expression="&quot;nhap canh&quot;" newline="True"/>
+            <input variable="canh"/>
+            <declare name="chieuCao" type="Integer" array="False" size=""/>
+            <output expression="&quot;nhap chieu cao&quot;" newline="True"/>
+            <input variable="chieuCao"/>
+            <assign variable="dienTich" expression="(canh*chieuCao)/2"/>
+            <output expression="&quot;Dien tich tam giac la &quot; &amp;dienTich" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
